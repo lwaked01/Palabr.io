@@ -1,30 +1,36 @@
-# Wordle clone UI
-
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+# Palabr.io UI
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/lwaked01s-projects/v0-wordle-clone-ui)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/mqlh53w7j5b)
+
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
-
+This project is a simple and interactive word-guessing game built with a modern UI.
+It recreates the familiar experience of daily word challenges, offering a clean interface, responsive layout, and intuitive user interactions.
 ## Deployment
 
-Your project is live at:
+## Features
 
-**[https://vercel.com/lwaked01s-projects/v0-wordle-clone-ui](https://vercel.com/lwaked01s-projects/v0-wordle-clone-ui)**
+🎨 Minimal and modern interface
 
-## Build your app
+🔤 Letter validation and color-coded feedback
 
-Continue building your app on:
+📱 Responsive layout for desktop and mobile
 
-**[https://v0.app/chat/mqlh53w7j5b](https://v0.app/chat/mqlh53w7j5b)**
+⚡ Fast loading and smooth interactions
+
+🌐 Live deployment with automatic updates
 
 ## How It Works
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+The player has a limited number of attempts to guess the hidden word.
+
+After each guess, the letters provide feedback:
+
+Green → correct letter, correct position
+
+Yellow → correct letter, wrong position
+
+Gray → letter not in the word
+
+The game ends when the user guesses the word or runs out of attempts.
