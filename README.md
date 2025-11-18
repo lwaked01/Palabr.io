@@ -7,7 +7,7 @@
 
 This project is a simple and interactive word-guessing game built with a modern UI.
 It recreates the familiar experience of daily word challenges, offering a clean interface, responsive layout, and intuitive user interactions.
-## Deployment
+
 
 ## Features
 
