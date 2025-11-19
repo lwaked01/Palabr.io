@@ -5,32 +5,37 @@
 
 ## Overview
 
-This project is a simple and interactive word-guessing game built with a modern UI.
-It recreates the familiar experience of daily word challenges, offering a clean interface, responsive layout, and intuitive user interactions.
+Aplicación web interactiva de adivinanza de palabras, diseñada con una interfaz moderna y una experiencia fluida. El juego ofrece un reto diario, validación de palabras en español y estadísticas básicas que enriquecen la experiencia del usuario.
 
+## Features ✨
+ 
+Interfaz minimalista y moderna
 
-## Features
+Retroalimentación visual por colores
 
-🎨 Minimal and modern interface
+Validación de palabras del diccionario
 
-🔤 Letter validation and color-coded feedback
+Palabra del día basada en fecha
 
-📱 Responsive layout for desktop and mobile
+Registro de estadísticas de juego
 
-⚡ Fast loading and smooth interactions
+Diseño completamente responsivo
 
-🌐 Live deployment with automatic updates
+Despliegue rápido y actualizaciones automáticas
 
-## How It Works
+## API Overview 🔧
 
-The player has a limited number of attempts to guess the hidden word.
+El sistema incluye una API ligera que gestiona:
 
-After each guess, the letters provide feedback:
+Palabra del día: proporciona el reto diario según la fecha.
 
-Green → correct letter, correct position
+Validación de palabras: confirma si un término existe en el diccionario español.
 
-Yellow → correct letter, wrong position
+Evaluación de intentos: compara cada intento con la palabra objetivo y devuelve la retroalimentación correspondiente.
 
-Gray → letter not in the word
+Estadísticas: registra resultados, intentos y desempeño del jugador.
 
-The game ends when the user guesses the word or runs out of attempts.
+## Cómo funciona 🎮
+
+El jugador tiene un número limitado de intentos para adivinar la palabra oculta.
+Cada intento genera una respuesta visual mediante colores que indican si las letras son correctas o no, y en qué posición. El juego termina cuando se acierta la palabra o se agotan los intentos, y los resultados pueden registrarse en las estadísticas.
