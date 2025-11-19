@@ -5,37 +5,32 @@
 
 ## Overview
 
-Aplicación web interactiva de adivinanza de palabras, diseñada con una interfaz moderna y una experiencia fluida. El juego ofrece un reto diario, validación de palabras en español y estadísticas básicas que enriquecen la experiencia del usuario.
+This project is a simple and interactive word-guessing game built with a modern UI.
+It recreates the familiar experience of daily word challenges, offering a clean interface, responsive layout, and intuitive user interactions.
 
-## Features ✨
- 
-Interfaz minimalista y moderna
 
-Retroalimentación visual por colores
+## Features
 
-Validación de palabras del diccionario
+🎨 Minimal and modern interface
 
-Palabra del día basada en fecha
+🔤 Letter validation and color-coded feedback
 
-Registro de estadísticas de juego
+📱 Responsive layout for desktop and mobile
 
-Diseño completamente responsivo
+⚡ Fast loading and smooth interactions
 
-Despliegue rápido y actualizaciones automáticas
+🌐 Live deployment with automatic updates
 
-## API Overview 🔧
+## How It Works
 
-El sistema incluye una API ligera que gestiona:
+The player has a limited number of attempts to guess the hidden word.
 
-Palabra del día: proporciona el reto diario según la fecha.
+After each guess, the letters provide feedback:
 
-Validación de palabras: confirma si un término existe en el diccionario español.
+Green → correct letter, correct position
 
-Evaluación de intentos: compara cada intento con la palabra objetivo y devuelve la retroalimentación correspondiente.
+Yellow → correct letter, wrong position
 
-Estadísticas: registra resultados, intentos y desempeño del jugador.
+Gray → letter not in the word
 
-## Cómo funciona 🎮
-
-El jugador tiene un número limitado de intentos para adivinar la palabra oculta.
-Cada intento genera una respuesta visual mediante colores que indican si las letras son correctas o no, y en qué posición. El juego termina cuando se acierta la palabra o se agotan los intentos, y los resultados pueden registrarse en las estadísticas.
+The game ends when the user guesses the word or runs out of attempts.
